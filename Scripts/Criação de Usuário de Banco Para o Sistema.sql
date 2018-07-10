@@ -1,0 +1,5 @@
+CREATE USER 'usuteste'@'%' IDENTIFIED BY 'teste123';
+GRANT USAGE ON *.* TO 'usuteste'@'%';
+FLUSH PRIVILEGES;
+GRANT SELECT, EXECUTE, DELETE, INSERT, UPDATE  ON `testedb`.* TO 'usuteste'@'%';
+FLUSH PRIVILEGES;

@@ -1,0 +1,1 @@
+ALTER TABLE tab_produtos MODIFY COLUMN id_produto INT auto_increment;
